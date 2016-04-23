@@ -9817,7 +9817,7 @@ body {
       background-color: white; }
 
 .view-form ion-content {
-  background-image: url(../img/earth_animation.gif);
+  background-image: url(../img/earth_animation.jpg);
   background-size: 100%; }
 
 .view-form div.lead {
@@ -9827,6 +9827,43 @@ body {
   .view-form div.lead p {
     margin-top: 0;
     margin-bottom: 0; }
+
+.view-form div.step {
+  margin-top: 10%;
+  text-align: center; }
+  .view-form div.step img {
+    width: 60%; }
+
+.view-form div.question {
+  margin-top: 20px;
+  color: #a2a1b8; }
+  .view-form div.question .item.range {
+    background-color: transparent;
+    border: none;
+    margin: 0 13%; }
+  .view-form div.question ul {
+    margin-top: 15px; }
+    .view-form div.question ul li {
+      display: inline-block;
+      background-size: 100% !important; }
+      .view-form div.question ul li:nth-child(1) {
+        margin-right: 1em; }
+      .view-form div.question ul li.option-gender-female {
+        background: url(../img/femaleunclicked.svg) no-repeat;
+        width: 60px;
+        height: 80px; }
+        .view-form div.question ul li.option-gender-female-clicked {
+          background: url(../img/femaleclicked.svg) no-repeat;
+          width: 60px;
+          height: 80px; }
+      .view-form div.question ul li.option-gender-male {
+        background: url(../img/maleunclicked.svg) no-repeat;
+        width: 65px;
+        height: 80px; }
+        .view-form div.question ul li.option-gender-male-clicked {
+          background: url(../img/malecliked.svg) no-repeat;
+          width: 65px;
+          height: 80px; }
 
 @keyframes fromLeft {
   from {

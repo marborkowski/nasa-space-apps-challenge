@@ -30,18 +30,25 @@ angular.module('starter.controllers', [])
     }, 4000);
 })
 
-.controller('FormCtrl', function($scope, $stateParams, $state) {
+.controller('FormCtrl', function($scope, $stateParams, $state, $timeout) {
     $scope.options = {
       loop: false,
       /*effect: 'fade',*/
       speed: 500,
-      paginationClickable: true
+      paginationClickable: true,
+      noSwipingClass: 'swiper-no-swiping'
     };
 
     $scope.data = {};
     $scope.$watch('data.slider', function(nv, ov) {
-      $scope.slider = $scope.data.slider;
+        $scope.slider = $scope.data.slider;
     });
+
+    $scope.questions = {
+        0: {
+          selected: null
+        }
+    };
 })
 
 .controller('AccountCtrl', function($scope) {

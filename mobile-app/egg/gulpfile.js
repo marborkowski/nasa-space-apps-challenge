@@ -21,6 +21,12 @@ gulp.task('injector', function (done) {
     .pipe(gulp.dest('./scss/'));
 });
 
+gulp.task('imgcache', function (done) {
+  gulp.src('./www/index.html')
+    .pipe(inject(gulp.src('./www/img/*.*', {read: false}), {relative: true, starttag: '<!-- inject:img -->', endtag: '<!-- endinject -->'}))
+    .pipe(gulp.dest('./www/'));
+});
+
 gulp.task('sass', function(done) {
   gulp.src('./scss/ionic.app.scss')
     .pipe(sass())
