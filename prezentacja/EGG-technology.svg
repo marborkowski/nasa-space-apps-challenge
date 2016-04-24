@@ -94,9 +94,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="946.41497"
-     inkscape:cy="575.75715"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="600.88152"
+     inkscape:cy="496.66065"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -113,7 +113,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -374,6 +374,71 @@
        id="path8889"
        inkscape:connector-curvature="0"
        transform="translate(0,-27.637832)" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="563.3266"
+       y="211.18016"
+       id="text3383"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3385"
+         x="563.3266"
+         y="211.18016"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold Italic'">SIGFOX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1084.7565"
+       y="715.38177"
+       id="text3387"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3389"
+         x="1084.7565"
+         y="715.38177"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;font-family:Sans;-inkscape-font-specification:'Sans Bold Italic'">TELECOM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="624.27429"
+       y="706.89001"
+       id="text3391"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3393"
+         x="624.27429"
+         y="706.89001"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;font-family:Sans;-inkscape-font-specification:'Sans Bold Italic'">Wearable</tspan><tspan
+         sodipodi:role="line"
+         x="624.27429"
+         y="744.39001"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;font-family:Sans;-inkscape-font-specification:'Sans Bold Italic'"
+         id="tspan3395">Sensor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="753.57379"
+       y="175.54976"
+       id="text3397"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3399"
+         x="753.57379"
+         y="175.54976"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;font-family:Sans;-inkscape-font-specification:'Sans Bold Italic'">GNSS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Bold Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="80.812202"
+       y="967.50934"
+       id="text3401"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3403"
+         x="80.812202"
+         y="967.50934"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;font-family:Sans;-inkscape-font-specification:'Sans Bold Italic'">EO</tspan></text>
   </g>
   <g
      transform="translate(0,27.637832)"

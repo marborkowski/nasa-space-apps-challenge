@@ -15,7 +15,10 @@
    version="1.1"
    inkscape:version="0.91 r"
    sodipodi:docname="EGG-architecture-detailed.svg"
-   viewBox="0 0 1900 1080">
+   viewBox="0 0 1900 1080"
+   inkscape:export-filename="/home/piotr/Programowanie/Hackatons/2016-NASA-SpaceApps/nasa-space-apps-challenge/prezentacja/EGG-architecture-detailed.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4322">
     <clipPath
@@ -526,7 +529,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.34569665"
      inkscape:cx="913.47072"
-     inkscape:cy="533.78026"
+     inkscape:cy="649.48864"
      inkscape:document-units="px"
      inkscape:current-layer="g6862"
      showgrid="false"
