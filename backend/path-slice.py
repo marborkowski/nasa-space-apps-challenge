@@ -51,18 +51,32 @@ def get_image_cross_section(image, polygon):
     return crossection_pixels
 
 
-def main():
+def draw_the_track_cross_section(image, crossection_points):
+    track_polygon = get_polygon(crossection_points)
+    cross_section = get_image_cross_section(image, track_polygon)
 
-    source_point = (62, 1022)
-    destination_point = (252, 918)
-
-    track_polygon = get_polygon([source_point, destination_point])
-
-    img_obj = Image.open("temporary-image.jpg", "r")
-    cross_section = get_image_cross_section(img_obj, track_polygon)
-
-    pylab.plot(map(lambda pixel: pixel[2], cross_section))
+    pylab.plot(map(lambda pixel: 255 - pixel[2], cross_section))
+    pylab.ylim(0, 255)
+    pylab.xlim(0, len(cross_section))
+    pylab.xticks([])
+    pylab.autoscale(False)
     pylab.show()
+
+
+def main():
+    demo_image = Image.open("temporary-image.jpg", "r")
+
+    # Some points
+    p1 = (62, 1022)
+    p2 = (30, 890)
+    p3 = (415, 555)
+    p4 = (252, 918)
+
+    track1 = [p1, p4]
+    track2 = [p1, p2, p3, p4]
+
+    draw_the_track_cross_section(demo_image, track1)
+    draw_the_track_cross_section(demo_image, track2)
 
 
 if __name__ == '__main__':
