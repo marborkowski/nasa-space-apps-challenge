@@ -22,8 +22,8 @@
       <ion-slide-page>
         <div class="box text-center">
           <div class="lead">
-            <p>Welcome!</p>
-            <p>We have few questions to you</p>
+            <p>Alright!</p>
+            <p>So far so good!</p>
           </div>
           <div class="step">
             <img src="img/step2.png"/>
@@ -31,19 +31,30 @@
           <div class="question">
             <span>Age</span>
             <div class="item range swiper-no-swiping">
-              <input type="range" name="volume">
+              <input type="range" name="volume" ng-model="questions[1].selected" min="5" max="120">
             </div>
+            <p>{{questions[1].selected}}</p>
           </div>
         </div>
       </ion-slide-page>
       <ion-slide-page>
         <div class="box text-center">
           <div class="lead">
-            <p>Welcome!</p>
-            <p>We have few questions to you</p>
+            <p>Hoooray!</p>
+            <p>It's last one</p>
           </div>
           <div class="step">
             <img src="img/step3.png"/>
+          </div>
+          <div class="question">
+            <span>What is your weight?</span>
+            <div class="item range swiper-no-swiping">
+              <input type="range" name="volume" ng-model="questions[2].selected" min="10" max="200">
+            </div>
+            <p>{{questions[2].selected}}</p>
+            <button class="button button-outline button-small button-royal" ng-click="actions.finish()">
+              Finish
+            </button>
           </div>
         </div>
       </ion-slide-page>
