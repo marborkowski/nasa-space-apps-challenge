@@ -1,0 +1,52 @@
+<ion-view class="view-form" hide-nav-bar="true">
+  <ion-content scroll="false">
+    <ion-slides  options="options" slider="data.slider">
+      <ion-slide-page>
+        <div class="box text-center">
+          <div class="lead">
+            <p>Welcome!</p>
+            <p>We have few questions to you</p>
+          </div>
+          <div class="step">
+            <img src="img/step1.png"/>
+          </div>
+          <div class="question">
+            <span>Gender</span>
+            <ul class="list-inline">
+              <li ng-class="{'option-gender-female': questions[0].selected !== 'female', 'option-gender-female-clicked': questions[0].selected === 'female'}" ng-click="questions[0].selected = 'female'"></li>
+              <li ng-class="{'option-gender-male': questions[0].selected !== 'male', 'option-gender-male-clicked': questions[0].selected === 'male'}" ng-click="questions[0].selected = 'male'"></li>
+            </ul>
+          </div>
+        </div>
+      </ion-slide-page>
+      <ion-slide-page>
+        <div class="box text-center">
+          <div class="lead">
+            <p>Welcome!</p>
+            <p>We have few questions to you</p>
+          </div>
+          <div class="step">
+            <img src="img/step2.png"/>
+          </div>
+          <div class="question">
+            <span>Age</span>
+            <div class="item range swiper-no-swiping">
+              <input type="range" name="volume">
+            </div>
+          </div>
+        </div>
+      </ion-slide-page>
+      <ion-slide-page>
+        <div class="box text-center">
+          <div class="lead">
+            <p>Welcome!</p>
+            <p>We have few questions to you</p>
+          </div>
+          <div class="step">
+            <img src="img/step3.png"/>
+          </div>
+        </div>
+      </ion-slide-page>
+    </ion-slides>
+  </ion-content>
+</ion-view>

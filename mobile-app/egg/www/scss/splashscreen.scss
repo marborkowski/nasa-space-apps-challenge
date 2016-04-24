@@ -1,0 +1,56 @@
+$animation-speed: 1s;
+@keyframes fromLeft {
+    from {left:-100%;}
+    to {left:0;}
+}
+@keyframes fromRight {
+    from {left:100%;}
+    to {left:0;}
+}
+.view-splashscreen {
+    font-family: 'Desib', 'Tahoma';
+    img.animation {
+      width: 90%;
+      margin-left: -22%;
+      margin-top: 25%;
+    }
+    div.animation-text {
+        margin-top: 15%;
+        text-align: center;
+        font-size: 1.3rem;
+
+        span {
+          animation-delay: 2s;
+          animation-fill-mode: forwards;
+
+          &:nth-child(1) {
+              position:relative;
+              left: -100%;
+              color: #fff;
+              margin-right: 5px;
+              animation-name: fromLeft;
+              animation-duration: $animation-speed;
+          }
+
+          &:nth-child(2) {
+              position: relative;
+              left: 100%;
+              color: #fff;
+              margin-left: 5px;
+              animation-name: fromRight;
+              animation-duration: $animation-speed;
+          }
+        }
+    }
+    div.footer {
+      position: absolute;
+      text-align: center;
+      bottom: 10%;
+      left: 0;
+      right: 0;
+
+      p:nth-child(2) {
+        color: #a2a1b8;
+      }
+    }
+}
