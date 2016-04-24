@@ -1,0 +1,35 @@
+<ion-view class="view-main" hide-nav-bar="true">
+  <ion-content scroll="false">
+    <div class="commonHeader">
+      <h1>Lung Watcher</h1>
+      <img src="img/icons/loca.svg" class="gps"/>
+    </div>
+    <ion-slides options="options" slider="data.slider">
+      <ion-slide-page class="slide-main">
+        <div class="box text-center">
+            <ul class="dataType" ng-init="dataType = 'local'">
+              <li ng-class="{'active': dataType === 'local'}" ng-click="dataType = 'local'">Local</li>
+              <li ng-class="{'active': dataType === 'new'}" ng-click="dataType = 'new'">New</li>
+            </ul>
+            <div class="ring">
+              <footer>
+                  <p>Results</p>
+                  <p>{{currentDate}}</p>
+              </footer>
+              <div class="chart"></div>
+            </div>
+        </div>
+      </ion-slide-page>
+      <ion-slide-page>
+        <div class="box text-center">
+            123
+
+            <footer class="onBottom">
+                <p>Results</p>
+                <p>{{currentDate}}</p>
+            </footer>
+        </div>
+      </ion-slide-page>
+    </ion-slides>
+  </ion-content>
+</ion-view>

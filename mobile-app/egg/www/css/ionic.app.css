@@ -15,6 +15,14 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
+@font-face {
+  font-family: 'Desib';
+  src: url("../fonts/desib.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Firasans';
+  src: url("../fonts/firasans.otf") format("opentype"); }
+
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -9793,17 +9801,12 @@ a.button {
 /*body, ion-nav-view, ion-content, ion-header-bar {
   background-color: black !important;
 }*/
-@font-face {
-  font-family: 'Desib';
-  src: url("../fonts/desib.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Firasans';
-  src: url("../fonts/firasans.otf") format("opentype"); }
-
 body {
   background-color: black;
   font-family: 'Firasans', 'Tahoma'; }
+
+.preloadImages {
+  visibility: hidden; }
 
 .view-form div.swiper-pagination {
   position: absolute;
@@ -9837,6 +9840,14 @@ body {
 .view-form div.question {
   margin-top: 20px;
   color: #a2a1b8; }
+  .view-form div.question > p {
+    color: white;
+    font-size: 1.2em; }
+  .view-form div.question button.button {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    display: block;
+    margin: 1.8em auto auto auto; }
   .view-form div.question .item.range {
     background-color: transparent;
     border: none;
@@ -9864,6 +9875,78 @@ body {
           background: url(../img/malecliked.svg) no-repeat;
           width: 65px;
           height: 80px; }
+
+.view-main ion-content {
+  background-image: url(../img/bg_default.jpg);
+  background-size: 100%;
+  padding-top: 25%; }
+
+.view-main .slide-main div.ring {
+  width: 100%;
+  position: absolute;
+  bottom: 5vh;
+  z-index: 99; }
+  .view-main .slide-main div.ring footer {
+    margin-bottom: 2vh; }
+  .view-main .slide-main div.ring .chart {
+    height: 45vh;
+    width: 100%;
+    background: url(../img/kolo.png) no-repeat;
+    background-position: center center;
+    background-size: 80%; }
+
+.view-main .slide-main ul.dataType {
+  text-transform: uppercase;
+  font-size: 0.8em !important; }
+  .view-main .slide-main ul.dataType li {
+    display: inline;
+    color: #a2a1b8;
+    line-height: 2em;
+    padding: 0.5em 0; }
+    .view-main .slide-main ul.dataType li.active {
+      color: #b53368; }
+    .view-main .slide-main ul.dataType li:nth-child(1) {
+      margin-right: 3em; }
+
+.view-main .swiper-pagination {
+  display: none; }
+
+.view-main footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em; }
+  .view-main footer.onBottom {
+    position: absolute;
+    z-index: 99;
+    bottom: 5%;
+    left: 0;
+    right: 0; }
+  .view-main footer p {
+    margin: 0;
+    padding: 0;
+    line-height: 130%; }
+    .view-main footer p:last-child {
+      color: #a2a1b8; }
+
+.view-main div.commonHeader {
+  text-align: center;
+  position: absolute;
+  z-index: 999;
+  top: 5%;
+  left: 0;
+  right: 0;
+  display: block;
+  font-family: 'Desib', 'Tahoma'; }
+  .view-main div.commonHeader img.gps {
+    position: absolute;
+    width: 10vw;
+    top: -5vw;
+    right: 5vw; }
+  .view-main div.commonHeader h1 {
+    text-transform: uppercase;
+    font-family: 'Desib', 'Tahoma';
+    color: white;
+    font-size: 1.4em; }
 
 @keyframes fromLeft {
   from {

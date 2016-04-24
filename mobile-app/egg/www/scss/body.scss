@@ -1,15 +1,11 @@
 /*body, ion-nav-view, ion-content, ion-header-bar {
   background-color: black !important;
 }*/
-@font-face {
-  font-family: 'Desib';
-  src: url('../fonts/desib.ttf')  format('truetype');
-}
-@font-face {
-  font-family: 'Firasans';
-  src: url('../fonts/firasans.otf')  format('opentype');
-}
 body {
   background-color: black;
   font-family: 'Firasans', 'Tahoma';
+}
+
+.preloadImages {
+  visibility: hidden;
 }

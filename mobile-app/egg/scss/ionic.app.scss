@@ -14,6 +14,16 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
+$color-rose: #b53368;
+$color-dark-grey: #a2a1b8;
+@font-face {
+  font-family: 'Desib';
+  src: url('../fonts/desib.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Firasans';
+  src: url('../fonts/firasans.otf')  format('opentype');
+}
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
@@ -23,5 +33,6 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 /*inject:scss*/
 @import "../www/scss/body.scss";
 @import "../www/scss/form.scss";
+@import "../www/scss/main.scss";
 @import "../www/scss/splashscreen.scss";
 /*endinject*/

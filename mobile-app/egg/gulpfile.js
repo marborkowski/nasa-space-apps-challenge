@@ -23,7 +23,7 @@ gulp.task('injector', function (done) {
 
 gulp.task('imgcache', function (done) {
   gulp.src('./www/index.html')
-    .pipe(inject(gulp.src('./www/img/*.*', {read: false}), {relative: true, starttag: '<!-- inject:img -->', endtag: '<!-- endinject -->'}))
+    .pipe(inject(gulp.src('./www/img/**/*.*', {read: false}), {relative: true, starttag: '<!-- inject:img -->', endtag: '<!-- endinject -->'}))
     .pipe(gulp.dest('./www/'));
 });
 
