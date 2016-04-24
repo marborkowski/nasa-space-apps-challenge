@@ -5,6 +5,69 @@
     padding-top:25%;
   }
 
+  .slide-tiles {
+      ul.steps {
+        li {
+          display: inline;
+          img[src$='kafelek.svg'], img[src$='kafelekuncliked.svg'] {
+            height: 2.5vh;
+          }
+          img[src$='pasek.svg'] {
+            height: 0.2vh;
+            position: relative;
+            top: -1.2vh;
+          }
+        }
+      }
+      .tiles {
+        margin-top:5%;
+        div.row {
+          margin:0 !important;
+
+          .col {
+            padding-bottom: 0;
+            padding-top: 0;
+            position: relative;
+
+            > div {
+              text-transform: uppercase;
+              line-height: 100%;
+              position: absolute;
+              left: 0;
+              right: 0;
+              bottom: 2vh;
+              text-align: right;
+              padding-right: 1.5em;
+            }
+
+            li:nth-child(2) {
+              font-size: 1.2rem;
+              margin-top:0.2em;
+            }
+
+            &.temperature {
+              color: $color-light-blue;
+            }
+            &.pressure {
+              color: $color-light-blue;
+            }
+            &.wind {
+              color: $color-rose;
+            }
+            &.humidity {
+              color: $color-rose;
+            }
+            &.uv {
+              color: $color-cyan;
+            }
+            &.contamination {
+              color: $color-cyan;
+            }
+          }
+        }
+      }
+  }
+
   .slide-main {
     div.ring {
       width:100%;
@@ -15,11 +78,39 @@
         margin-bottom: 2vh;
       }
       .chart {
-        height: 45vh;
+        height: 46vh;
         width: 100%;
         background: url(../img/kolo.png) no-repeat;
         background-position: center center;
         background-size: 80%;
+
+        img {
+          position: absolute;
+          z-index: 99;
+          height: 5.5vh;
+        }
+        img[src*='profile'] {
+          left: 0;
+          right: 0;
+          margin-top: 1vh;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        img[src*='star'] {
+          bottom: 1vh;
+          left: 0;
+          right: 0;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        img[src*='env'] {
+          bottom: 21vh;
+          right: 12%;
+        }
+        img[src*='statystyki'] {
+          bottom: 21vh;
+          left: 12%;
+        }
       }
     }
     ul {

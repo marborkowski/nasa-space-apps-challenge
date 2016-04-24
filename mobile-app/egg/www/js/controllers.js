@@ -97,7 +97,7 @@ angular.module('starter.controllers', [])
 
     $scope.actions = {
         goTo: function (slide) {
-
+            $scope.slider.slideTo($scope.slides[slide]);
         }
     };
 })
