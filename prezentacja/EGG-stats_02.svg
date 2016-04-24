@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="EGG-stats_03.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1047.0766"
+     inkscape:cy="486.38945"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     borderlayer="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,27.637371)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90px;line-height:125%;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#34292f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.99;"
+       x="961.3465"
+       y="535.67261"
+       id="text4136"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4138"
+         x="961.3465"
+         y="535.67261"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Designer Block';-inkscape-font-specification:'Designer Block';fill:#34292f;fill-opacity:1;">98% z nich ma lepsze samopoczucie</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:125%;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="961.77307"
+       y="889.21979"
+       id="text5085"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5087"
+         x="961.77307"
+         y="889.21979"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Designer Block';-inkscape-font-specification:'Designer Block';fill:#34292f;fill-opacity:1">79%</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="img">
+    <g
+       id="g3890"
+       transform="matrix(0.16065705,0,0,-0.16065705,857.71429,978.65972)"
+       style="stroke:#34292f;stroke-opacity:1">
+      <path
+         style="fill:#34292f;fill-opacity:1;stroke:#34292f;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         id="path3892"
+         d="m 124.67116,192 q 0,26 -19,45 -19.000002,19 -45.000002,19 -26,0 -45,-19 -19.0000004,-19 -19.0000004,-45 0,-26 19.0000004,-45 19,-19 45,-19 26,0 45.000002,19 19,19 19,45 z M 1276.6712,768 q 0,51 -39,89.5 -39,38.5 -89,38.5 l -352.00004,0 q 0,58 48,159.5 48,101.5 48,160.5 0,98 -32,145 -32,47 -128,47 -26,-26 -38,-85 -12,-59 -30.5,-125.5 -18.5,-66.5 -59.5,-109.5 -22,-23 -77,-91 -4,-5 -23,-30 -19,-25 -31.5,-41 -12.5,-16 -34.5,-42.5 -22,-26.5 -40,-44 -18,-17.5 -38.5,-35.5 -20.5,-18 -40,-27 -19.5,-9 -35.5,-9 l -32,0 0,-640 32,0 q 13,0 31.5,-3 18.5,-3 33,-6.5 14.5,-3.5 38,-11 23.5,-7.5 35,-11.5 11.5,-4 35.5,-12.5 24,-8.5 29,-10.5 211,-73 342,-73 l 121,0 q 192.00004,0 192.00004,167 0,26 -5,56 30,16 47.5,52.5 17.5,36.5 17.5,73.5 0,37 -18,69 53,50 53,119 0,25 -10,55.5 -10,30.5 -25,47.5 32,1 53.5,47 21.5,46 21.5,81 z m 128,1 q 0,-89 -49,-163 9,-33 9,-69 0,-77 -38,-144 3,-21 3,-43 0,-101 -60,-178 1,-139 -85,-219.5 -86,-80.5 -227.00004,-80.5 l -36,0 -93,0 q -96,0 -189.5,22.5 -93.5,22.5 -216.5,65.5 -116,40 -138,40 L -3.3288424,0 Q -56.328842,0 -93.828842,37.5 -131.32884,75 -131.32884,128 l 0,640 q 0,53 37.499998,90.5 37.5,37.5 90.4999996,37.5 l 274.0000024,0 q 36,24 137,155 58,75 107,128 24,25 35.5,85.5 11.5,60.5 30.5,126.5 19,66 62,108 39,37 90,37 84,0 151,-32.5 67,-32.5 102,-101.5 35.00004,-69 35.00004,-186 0,-93 -48.00004,-192 l 176.00004,0 q 104,0 180,-76 76,-76 76,-179 z" />
+    </g>
+  </g>
+</svg>
