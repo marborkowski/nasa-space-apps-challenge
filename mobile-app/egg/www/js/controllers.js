@@ -54,7 +54,8 @@ angular.module('starter.controllers', [])
             $ionicHistory.nextViewOptions({
               disableBack: true
             });
-            storage.set('survey', $scope.questions);
+            // TODO uncomment this line after tests...
+            //storage.set('survey', $scope.questions);
             $state.go('tab.main');
         }
     };
@@ -97,7 +98,7 @@ angular.module('starter.controllers', [])
 
     $scope.actions = {
         goTo: function (slide) {
-
+            $scope.slider.slideTo($scope.slides[slide]);
         }
     };
 })

@@ -5,7 +5,7 @@
       <img src="img/icons/loca.svg" class="gps"/>
     </div>
     <ion-slides options="options" slider="data.slider">
-      <ion-slide-page class="slide-main">
+      <ion-slide-page class="slide-main swiper-no-swiping">
         <div class="box text-center">
             <ul class="dataType" ng-init="dataType = 'local'">
               <li ng-class="{'active': dataType === 'local'}" ng-click="dataType = 'local'">Local</li>
@@ -16,13 +16,87 @@
                   <p>Results</p>
                   <p>{{currentDate}}</p>
               </footer>
-              <div class="chart"></div>
+              <div class="chart">
+                <img src="img/icons/starclicked.png"/>
+                <img src="img/icons/profileclicked.png"/>
+                <img src="img/icons/envclicked.png"/>
+                <img src="img/icons/statystykiunclicked.png" ng-click="actions.goTo('charts')"/>
+              </div>
             </div>
         </div>
       </ion-slide-page>
-      <ion-slide-page>
+      <ion-slide-page class="slide-tiles">
         <div class="box text-center">
-            123
+            <ul class="steps">
+              <li><img src="img/icons/kafelek.svg"/></li>
+              <li><img src="img/icons/pasek.svg"/></li>
+              <li><img src="img/icons/kafelekuncliked.svg"/></li>
+              <li><img src="img/icons/pasek.svg"/></li>
+              <li><img src="img/icons/kafelekuncliked.svg"/></li>
+            </ul>
+
+            <div class="tiles">
+              <div class="row">
+                <div class="col temperature">
+                  <img src="img/icons/temperature.png"/>
+                  <div>
+                    <ul>
+                      <li>+2 °C</li>
+                      <li>18 °C</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col pressure">
+                  <img src="img/icons/pressure.png"/>
+                  <div>
+                    <ul>
+                      <li>FALLING</li>
+                      <li>1005.1 MB</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col wind">
+                  <img src="img/icons/wind.png"/>
+                  <div>
+                    <ul>
+                      <li>WIND & GUSTS</li>
+                      <li>31 | 38 M/S</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col humidity">
+                  <img src="img/icons/humidity.png"/>
+                  <div>
+                    <ul>
+                      <li>&nbsp;</li>
+                      <li>42 %</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col uv">
+                  <img src="img/icons/uv.png"/>
+                  <div>
+                    <ul>
+                      <li>&nbsp;</li>
+                      <li>0-2</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col contamination">
+                  <img src="img/icons/contamination.png"/>
+                  <div>
+                    <ul>
+                      <li>&nbsp;</li>
+                      <li>FALLING</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <footer class="onBottom">
                 <p>Results</p>
