@@ -1,8 +1,6 @@
 Lungs Watcher
 =============
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yv4hQls1XUQ" frameborder="0" allowfullscreen></iframe>
-
 About project
 -------------
 Lungs Watcher, a mobile solution for the sector of Sport and Tourism. Application was created on the response of the needs of Runners and Bicyclers. (and the idea appeared after doing a short survey among them).
@@ -14,6 +12,11 @@ Data Analyzed in application helps, the runner and Bicycler to choose the optima
 User indicates the desired route, and we calculate the optimal one taking into account user parameters, in addition show on the map the areas to avoid, and percentage of pollution. You can train alone or with your friends, you can add people from your community to run with, in this case the route will be calculated taking into account the personal parameters of each sportsmen.
 
 We also foresee the possibility to interact with application, in case if user runs into an area, that according to him should be avoided, he can add this info into the app, and it will be shown on the map, with description and each one from his community till be able to see it.
+
+Promo video
+-----------
+
+https://www.youtube.com/watch?v=Yv4hQls1XUQ
 
 Installation
 ------------
