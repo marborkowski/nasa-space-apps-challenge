@@ -30,11 +30,13 @@ Prepare your device:
 ![enter image description here](https://raw.githubusercontent.com/marborkowski/nasa-space-apps-challenge/master/readme/turn-on-installing-from-unknown-sources.png)
 
  From then on, when you prepare to install a program from untrusted sources, the Android phone would make you confirm again whether you want to really install this untrusted app. If not, just deny it.
- 4. Open your favorite browser and enter one of the following URLs:
+
+Install Lungs Watcher on your smartphone
+
+ 1. Open your favorite browser and enter one of the following URLs:
 	 https://s3-us-west-1.amazonaws.com/lungs-watcher/android/android-armv7-debug.apk
 	 https://s3-us-west-1.amazonaws.com/lungs-watcher/android/android-x86-debug.apk
-
- 5. Press **ENTER** on your virtual keyboard. Lungs Watcher will be installed on your smartphone.
+ 2. Press **ENTER** on your virtual keyboard. Lungs Watcher will be installed on your smartphone.
 
 **iOS**
 Available soon.
