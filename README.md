@@ -49,7 +49,7 @@ Contributors
 
  1. **[Marcin Borkowski](https://pl.linkedin.com/in/marcinborkowski)** - <marborkowski@gmail.com>
  2. **[Maciej Urbanowicz](https://pl.linkedin.com/in/maciejurbanowicz)** - <maciejurbanowicz@gmail.com>
- 3. **Julia Strotska**
+ 3. **[Julia Strotska](https://pl.linkedin.com/in/iuliia-strotska-488627a4/en)** - <yuliyastrotska@gmail.com>
  4. **Bożena Biłko** - <bozbil@gmail.com>
  5. **Piotr Skonieczka**
 
