@@ -47,8 +47,15 @@ Available soon.
 Contributors
 ------------
 
- 1. **Marcin Borkowski** - <marborkowski@gmail.com>
- 2. **Maciej Urbanowicz** - <maciejurbanowicz@gmail.com>
- 3. **Julia Strotska** - <yuliyastrotska@gmail.com>
+ 1. **[Marcin Borkowski](https://pl.linkedin.com/in/marcinborkowski)** - <marborkowski@gmail.com>
+ 2. **[Maciej Urbanowicz](https://pl.linkedin.com/in/maciejurbanowicz)** - <maciejurbanowicz@gmail.com>
+ 3. **[Julia Strotska](https://pl.linkedin.com/in/iuliia-strotska-488627a4/en)** - <yuliyastrotska@gmail.com>
  4. **Bożena Biłko** - <bozbil@gmail.com>
- 5. **Piotr Skonieczka** - <skoczek@mat.umk.pl>
+ 5. **Piotr Skonieczka**
+
+Main resources
+---------
+
+ 1. [Ionic framework to build hybrid mobile applications](http://ionicframework.com/)
+ 2. [National list of runners (report 2014)](http://spisbiegaczy.pl/spis2014/0,0.html)
+ 3. GIBS API for developers - [here](https://worldview.earthdata.nasa.gov/) and [here](https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+API+for+Developers#GIBSAPIforDevelopers-LayerConfigurationInformation).
