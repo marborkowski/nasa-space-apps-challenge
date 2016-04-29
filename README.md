@@ -47,8 +47,8 @@ Available soon.
 Contributors
 ------------
 
- 1. **Marcin Borkowski** - <marborkowski@gmail.com>
- 2. **Maciej Urbanowicz** - <maciejurbanowicz@gmail.com>
- 3. **Julia Strotska** - <yuliyastrotska@gmail.com>
+ 1. **[Marcin Borkowski](https://pl.linkedin.com/in/marcinborkowski)** - <marborkowski@gmail.com>
+ 2. **[Maciej Urbanowicz](https://pl.linkedin.com/in/maciejurbanowicz)** - <maciejurbanowicz@gmail.com>
+ 3. **Julia Strotska**
  4. **Bożena Biłko** - <bozbil@gmail.com>
- 5. **Piotr Skonieczka** - <skoczek@mat.umk.pl>
+ 5. **Piotr Skonieczka**
