@@ -34,8 +34,8 @@ Prepare your device:
 Install Lungs Watcher on your smartphone
 
  1. Open your favorite browser and enter one of the following URLs:
-	 https://s3-us-west-1.amazonaws.com/lungs-watcher/android/android-armv7-debug.apk
-	 https://s3-us-west-1.amazonaws.com/lungs-watcher/android/android-x86-debug.apk
+	 - https://s3-us-west-1.amazonaws.com/lungs-watcher/android/android-armv7-debug.apk
+	 - https://s3-us-west-1.amazonaws.com/lungs-watcher/android/android-x86-debug.apk
  2. Press **ENTER** on your virtual keyboard. Lungs Watcher will be installed on your smartphone.
 
 **iOS**
